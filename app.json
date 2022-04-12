@@ -1,7 +1,7 @@
 {
   "name": "Tg Dc Game",
   "description": "Repoxana terefinden tercume edilmis dc botu",
-  "repository": "https://github.com/aykhan121/dcgamebot.git",
+  "repository": "https://github.com/Gecekus/dc.git",
   "logo": "https://telegramchannels.me/storage/media-logo/2001/dcgamebot.jpg",
   "keywords": ["telegram", "game", "pyrogram","telegram bot"],
   "env": {
