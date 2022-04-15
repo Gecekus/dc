@@ -36,7 +36,7 @@ def button():
 async def _(client, message):
 	user = message.from_user # Kullanıcın Kimliğini Alalım
 
-	await message.reply_text(text="**🙋🏻‍♂️ Salam {}!**\n\n__Mən #BTB tərəfindən tərcümə edilmiş doğruluq-cəsarət botuyam :)__\n\n**Əlavə məlumat üçün => /komek** ".format(
+	await message.reply_text(text="**🙋🏻‍♂️ Salam {}!**\n\n__Mən #CayberSpaceAz tərəfindən tərcümə edilmiş doğruluq-cəsarət botuyam :)__\n\n**Əlavə məlumat üçün => /komek** ".format(
 		user.mention, # Kullanıcı'nın Adı
 		),
 	disable_web_page_preview=True, # Etiketin Önizlemesi Olmaması İcin Kullanıyoruz
@@ -53,7 +53,7 @@ def d_or_c(user_id):
 async def _(client, message):
 	user = message.from_user
 
-	await message.reply_text(text="{} Məni tərcümə edən[#BTB](https://t.me/BorzBots) Təşəkkür edirəm".format(user.mention),
+	await message.reply_text(text="{} Məni tərcümə edən[#Cyber](https://t.me/CyberSpaceAz) Təşəkkür edirəm".format(user.mention),
 		)
 
 @K_G.on_message(filters.command("komek"))
@@ -66,7 +66,7 @@ async def _(client, message):
 async def _(client, message):
 	user = message.from_user
 
-	await message.reply_text(text="**{} [#BTB](https://t.me/BorzBots) tərəfindən yoxlanıldıqdan sonra artırılacaq.😉**".format(user.mention),
+	await message.reply_text(text="**{} [#Cyber](https://t.me/CyberSpaceAz) tərəfindən yoxlanıldıqdan sonra artırılacaq.😉**".format(user.mention),
 		)
 
 	# Dc Komutunu Oluşturalım
